@@ -7,25 +7,25 @@ widgets extensible via inheritance and a comprehensive set of widgets.
 This is the 2.4-branch of the binding for glib-2.0.
 
 Runtime requirements:
-  cygwin-1.5.22-1
+  cygwin-1.5.23-2
   glib2-2.12.4-1
   libsigc++20-2.0.17-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.22-1
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
+  cygwin-1.5.23-2
+  autoconf2.5-2.60-2
+  automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  libtool1.5-1.5.23a-1
+  cygport-0.2.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
   make-3.81-1
   perl-5.8.7-5
   pkg-config-0.21-1
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gtkmm.org/
@@ -36,17 +36,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack glibmm24-2.12.3-1-src.tar.bz2
+  unpack glibmm24-2.12.4-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./glibmm24-2.12.3-1.cygport all
+  cygport ./glibmm24-2.12.4-1.cygport all
 
 This will create:
-  /usr/src/glibmm24-2.12.3-1.tar.bz2
-  /usr/src/glibmm24-2.12.3-1-src.tar.bz2
-  /usr/src/glibmm24-devel-2.12.3-1.tar.bz2
-  /usr/src/glibmm24-doc-2.12.3-1.tar.bz2
+  /usr/src/glibmm24-2.12.4-1.tar.bz2
+  /usr/src/glibmm24-2.12.4-1-src.tar.bz2
+  /usr/src/glibmm24-devel-2.12.4-1.tar.bz2
+  /usr/src/glibmm24-doc-2.12.4-1.tar.bz2
 
 -------------------------------------------
 
@@ -54,14 +54,14 @@ Files included in the binary packages:
 
 (glibmm24)
   /usr/bin/cygglibmm-2.4-1.dll
-  /usr/share/doc/Cygwin/glibmm24-2.12.3.README
-  /usr/share/doc/glibmm24-2.12.3/AUTHORS
-  /usr/share/doc/glibmm24-2.12.3/COPYING
-  /usr/share/doc/glibmm24-2.12.3/ChangeLog
-  /usr/share/doc/glibmm24-2.12.3/Changes
-  /usr/share/doc/glibmm24-2.12.3/INSTALL
-  /usr/share/doc/glibmm24-2.12.3/NEWS
-  /usr/share/doc/glibmm24-2.12.3/README
+  /usr/share/doc/Cygwin/glibmm24-2.12.4.README
+  /usr/share/doc/glibmm24-2.12.4/AUTHORS
+  /usr/share/doc/glibmm24-2.12.4/COPYING
+  /usr/share/doc/glibmm24-2.12.4/ChangeLog
+  /usr/share/doc/glibmm24-2.12.4/Changes
+  /usr/share/doc/glibmm24-2.12.4/INSTALL
+  /usr/share/doc/glibmm24-2.12.4/NEWS
+  /usr/share/doc/glibmm24-2.12.4/README
 
 (glibmm24-devel)
   /usr/bin/cygglibmm_generate_extra_defs-2.4-1.dll
@@ -775,6 +775,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.12.4-1 -----
+Version bump.
 
 ----- version 2.12.3-1 -----
 Version bump.
