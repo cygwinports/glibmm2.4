@@ -17,7 +17,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.2.11-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
@@ -36,17 +36,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack glibmm24-2.12.6-1-src.tar.bz2
+  unpack glibmm24-2.12.8-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./glibmm24-2.12.6-1.cygport all
+  cygport ./glibmm24-2.12.8-1.cygport all
 
 This will create:
-  /usr/src/glibmm24-2.12.6-1.tar.bz2
-  /usr/src/glibmm24-2.12.6-1-src.tar.bz2
-  /usr/src/glibmm24-devel-2.12.6-1.tar.bz2
-  /usr/src/glibmm24-doc-2.12.6-1.tar.bz2
+  /usr/src/glibmm24-2.12.8-1.tar.bz2
+  /usr/src/glibmm24-2.12.8-1-src.tar.bz2
+  /usr/src/glibmm24-devel-2.12.8-1.tar.bz2
+  /usr/src/glibmm24-doc-2.12.8-1.tar.bz2
 
 -------------------------------------------
 
@@ -54,14 +54,14 @@ Files included in the binary packages:
 
 (glibmm24)
   /usr/bin/cygglibmm-2.4-1.dll
-  /usr/share/doc/Cygwin/glibmm24-2.12.6.README
-  /usr/share/doc/glibmm24-2.12.6/AUTHORS
-  /usr/share/doc/glibmm24-2.12.6/COPYING
-  /usr/share/doc/glibmm24-2.12.6/ChangeLog
-  /usr/share/doc/glibmm24-2.12.6/Changes
-  /usr/share/doc/glibmm24-2.12.6/INSTALL
-  /usr/share/doc/glibmm24-2.12.6/NEWS
-  /usr/share/doc/glibmm24-2.12.6/README
+  /usr/share/doc/Cygwin/glibmm24-2.12.8.README
+  /usr/share/doc/glibmm24-2.12.8/AUTHORS
+  /usr/share/doc/glibmm24-2.12.8/COPYING
+  /usr/share/doc/glibmm24-2.12.8/ChangeLog
+  /usr/share/doc/glibmm24-2.12.8/Changes
+  /usr/share/doc/glibmm24-2.12.8/INSTALL
+  /usr/share/doc/glibmm24-2.12.8/NEWS
+  /usr/share/doc/glibmm24-2.12.8/README
 
 (glibmm24-devel)
   /usr/bin/cygglibmm_generate_extra_defs-2.4-1.dll
@@ -775,6 +775,12 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.12.8-1 -----
+Version bump.
+
+----- version 2.12.7-1 -----
+Version bump.
 
 ----- version 2.12.6-1 -----
 Version bump.
