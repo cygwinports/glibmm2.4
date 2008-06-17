@@ -7,7 +7,7 @@ widgets extensible via inheritance and a comprehensive set of widgets.
 This is the 2.4-branch of the binding for glib-2.0.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   glib2-2.16.3-1
   libsigc++20-2.2.2-1
 
@@ -22,8 +22,8 @@ Build requirements:
   gcc-g++-3.4.4-3
   libtool-2.2.2-2
   make-3.81-1
-  perl-5.10.0-3
-  pkg-config-0.21-1
+  perl-5.10.0-4
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -35,17 +35,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack glibmm24-2.16.2-1-src.tar.bz2
+  unpack glibmm24-2.16.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./glibmm24-2.16.2-1.cygport all
+  cygport ./glibmm24-2.16.3-1.cygport all
 
 This will create:
-  /usr/src/glibmm24-2.16.2-1.tar.bz2
-  /usr/src/glibmm24-2.16.2-1-src.tar.bz2
-  /usr/src/glibmm24-devel-2.16.2-1.tar.bz2
-  /usr/src/glibmm24-doc-2.16.2-1.tar.bz2
+  /usr/src/glibmm24-2.16.3-1.tar.bz2
+  /usr/src/glibmm24-2.16.3-1-src.tar.bz2
+  /usr/src/glibmm24-devel-2.16.3-1.tar.bz2
+  /usr/src/glibmm24-doc-2.16.3-1.tar.bz2
 
 -------------------------------------------
 
@@ -54,12 +54,12 @@ Files included in the binary packages:
 (glibmm24)
   /usr/bin/cyggiomm-2.4-1.dll
   /usr/bin/cygglibmm-2.4-1.dll
-  /usr/share/doc/glibmm24-2.16.2/AUTHORS
-  /usr/share/doc/glibmm24-2.16.2/COPYING
-  /usr/share/doc/glibmm24-2.16.2/ChangeLog
-  /usr/share/doc/glibmm24-2.16.2/INSTALL
-  /usr/share/doc/glibmm24-2.16.2/NEWS
-  /usr/share/doc/glibmm24-2.16.2/README
+  /usr/share/doc/glibmm24-2.16.3/AUTHORS
+  /usr/share/doc/glibmm24-2.16.3/COPYING
+  /usr/share/doc/glibmm24-2.16.3/ChangeLog
+  /usr/share/doc/glibmm24-2.16.3/INSTALL
+  /usr/share/doc/glibmm24-2.16.3/NEWS
+  /usr/share/doc/glibmm24-2.16.3/README
 
 (glibmm24-devel)
   /usr/bin/cygglibmm_generate_extra_defs-2.4-1.dll
@@ -285,6 +285,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.16.3-1 -----
+Version bump.
 
 ----- version 2.16.2-1 -----
 Version bump for GNOME 2.22.
