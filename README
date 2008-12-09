@@ -1,4 +1,4 @@
-glibmm24
+glibmm2.4
 -------------------------------------------
 gtkmm is the official C++ interface for the popular GUI library GTK+. It
 closely follows GTK+ development. Highlights include typesafe callbacks,
@@ -8,19 +8,19 @@ This is the 2.4-branch of the binding for glib-2.0.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.3-1
-  libsigc++20-2.2.2-1
+  libglib2.0_0-2.18.3-1
+  libsigc2.0_0-2.2.3-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
   perl-5.10.0-5
   pkg-config-0.23a-2
@@ -35,33 +35,33 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack glibmm24-2.16.4-1-src.tar.bz2
+  unpack glibmm2.4-2.18.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./glibmm24-2.16.4-1.cygport all
+  cygport ./glibmm2.4-2.18.1-1.cygport all
 
 This will create:
-  /usr/src/glibmm24-2.16.4-1.tar.bz2
-  /usr/src/glibmm24-2.16.4-1-src.tar.bz2
-  /usr/src/glibmm24-devel-2.16.4-1.tar.bz2
-  /usr/src/glibmm24-doc-2.16.4-1.tar.bz2
+  /usr/src/glibmm2.4-2.18.1-1.tar.bz2
+  /usr/src/libglibmm2.4_1-2.18.1-1-src.tar.bz2
+  /usr/src/libglibmm2.4-devel-2.18.1-1.tar.bz2
+  /usr/src/libglibmm2.4-doc-2.18.1-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(glibmm24)
+(libglibmm2.4_1)
   /usr/bin/cyggiomm-2.4-1.dll
   /usr/bin/cygglibmm-2.4-1.dll
-  /usr/share/doc/glibmm24-2.16.4/AUTHORS
-  /usr/share/doc/glibmm24-2.16.4/COPYING
-  /usr/share/doc/glibmm24-2.16.4/ChangeLog
-  /usr/share/doc/glibmm24-2.16.4/INSTALL
-  /usr/share/doc/glibmm24-2.16.4/NEWS
-  /usr/share/doc/glibmm24-2.16.4/README
+  /usr/share/doc/glibmm2.4-2.18.1/AUTHORS
+  /usr/share/doc/glibmm2.4-2.18.1/COPYING
+  /usr/share/doc/glibmm2.4-2.18.1/ChangeLog
+  /usr/share/doc/glibmm2.4-2.18.1/INSTALL
+  /usr/share/doc/glibmm2.4-2.18.1/NEWS
+  /usr/share/doc/glibmm2.4-2.18.1/README
 
-(glibmm24-devel)
+(libglibmm2.4-devel)
   /usr/bin/cygglibmm_generate_extra_defs-2.4-1.dll
   /usr/include/giomm-2.4/giomm.h
   /usr/include/giomm-2.4/giomm/appinfo.h
@@ -165,6 +165,7 @@ Files included in the binary packages:
   /usr/include/glibmm-2.4/glibmm/markup.h
   /usr/include/glibmm-2.4/glibmm/miscutils.h
   /usr/include/glibmm-2.4/glibmm/module.h
+  /usr/include/glibmm-2.4/glibmm/nodetree.h
   /usr/include/glibmm-2.4/glibmm/object.h
   /usr/include/glibmm-2.4/glibmm/objectbase.h
   /usr/include/glibmm-2.4/glibmm/optioncontext.h
@@ -181,6 +182,7 @@ Files included in the binary packages:
   /usr/include/glibmm-2.4/glibmm/private/keyfile_p.h
   /usr/include/glibmm-2.4/glibmm/private/markup_p.h
   /usr/include/glibmm-2.4/glibmm/private/module_p.h
+  /usr/include/glibmm-2.4/glibmm/private/nodetree_p.h
   /usr/include/glibmm-2.4/glibmm/private/object_p.h
   /usr/include/glibmm-2.4/glibmm/private/optioncontext_p.h
   /usr/include/glibmm-2.4/glibmm/private/optionentry_p.h
@@ -276,7 +278,7 @@ Files included in the binary packages:
   /usr/lib/pkgconfig/glibmm-2.4.pc
   /usr/share/aclocal/glibmm_check_perl.m4
 
-(glibmm24-doc)
+(libglibmm2.4-doc)
   /usr/share/devhelp/books/glibmm-2.4/glibmm-2.4.devhelp
   /usr/share/doc/glibmm-2.4/docs/images/*
   /usr/share/doc/glibmm-2.4/docs/reference/html/*
@@ -285,6 +287,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.18.1-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.16.4-1 -----
 Version bump.
