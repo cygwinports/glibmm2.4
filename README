@@ -7,21 +7,22 @@ widgets extensible via inheritance and a comprehensive set of widgets.
 This is the 2.4-branch of the binding for glib-2.0.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglib2.0_0-2.18.3-1
-  libsigc2.0_0-2.2.3-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.2.0-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-g++-4.3.2-2
   libtool-2.2.6a-1
-  make-3.81-1
+  make-3.81-2
   perl-5.10.0-5
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -35,17 +36,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack glibmm2.4-2.18.1-1-src.tar.bz2
+  unpack glibmm2.4-2.20.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./glibmm2.4-2.18.1-1.cygport all
+  cygport ./glibmm2.4-2.20.0-1.cygport all
 
 This will create:
-  /usr/src/glibmm2.4-2.18.1-1.tar.bz2
-  /usr/src/libglibmm2.4_1-2.18.1-1-src.tar.bz2
-  /usr/src/libglibmm2.4-devel-2.18.1-1.tar.bz2
-  /usr/src/libglibmm2.4-doc-2.18.1-1.tar.bz2
+  /usr/src/glibmm2.4-2.20.0-1.tar.bz2
+  /usr/src/libglibmm2.4_1-2.20.0-1-src.tar.bz2
+  /usr/src/libglibmm2.4-devel-2.20.0-1.tar.bz2
+  /usr/src/libglibmm2.4-doc-2.20.0-1.tar.bz2
 
 -------------------------------------------
 
@@ -54,12 +55,11 @@ Files included in the binary packages:
 (libglibmm2.4_1)
   /usr/bin/cyggiomm-2.4-1.dll
   /usr/bin/cygglibmm-2.4-1.dll
-  /usr/share/doc/glibmm2.4-2.18.1/AUTHORS
-  /usr/share/doc/glibmm2.4-2.18.1/COPYING
-  /usr/share/doc/glibmm2.4-2.18.1/ChangeLog
-  /usr/share/doc/glibmm2.4-2.18.1/INSTALL
-  /usr/share/doc/glibmm2.4-2.18.1/NEWS
-  /usr/share/doc/glibmm2.4-2.18.1/README
+  /usr/share/doc/glibmm2.4/AUTHORS
+  /usr/share/doc/glibmm2.4/COPYING
+  /usr/share/doc/glibmm2.4/ChangeLog
+  /usr/share/doc/glibmm2.4/NEWS
+  /usr/share/doc/glibmm2.4/README
 
 (libglibmm2.4-devel)
   /usr/bin/cygglibmm_generate_extra_defs-2.4-1.dll
@@ -74,6 +74,8 @@ Files included in the binary packages:
   /usr/include/giomm-2.4/giomm/dataoutputstream.h
   /usr/include/giomm-2.4/giomm/desktopappinfo.h
   /usr/include/giomm-2.4/giomm/drive.h
+  /usr/include/giomm-2.4/giomm/emblem.h
+  /usr/include/giomm-2.4/giomm/emblemedicon.h
   /usr/include/giomm-2.4/giomm/enums.h
   /usr/include/giomm-2.4/giomm/error.h
   /usr/include/giomm-2.4/giomm/file.h
@@ -93,6 +95,7 @@ Files included in the binary packages:
   /usr/include/giomm-2.4/giomm/inputstream.h
   /usr/include/giomm-2.4/giomm/loadableicon.h
   /usr/include/giomm-2.4/giomm/memoryinputstream.h
+  /usr/include/giomm-2.4/giomm/memoryoutputstream.h
   /usr/include/giomm-2.4/giomm/mount.h
   /usr/include/giomm-2.4/giomm/mountoperation.h
   /usr/include/giomm-2.4/giomm/outputstream.h
@@ -105,6 +108,8 @@ Files included in the binary packages:
   /usr/include/giomm-2.4/giomm/private/dataoutputstream_p.h
   /usr/include/giomm-2.4/giomm/private/desktopappinfo_p.h
   /usr/include/giomm-2.4/giomm/private/drive_p.h
+  /usr/include/giomm-2.4/giomm/private/emblem_p.h
+  /usr/include/giomm-2.4/giomm/private/emblemedicon_p.h
   /usr/include/giomm-2.4/giomm/private/enums_p.h
   /usr/include/giomm-2.4/giomm/private/error_p.h
   /usr/include/giomm-2.4/giomm/private/file_p.h
@@ -123,6 +128,7 @@ Files included in the binary packages:
   /usr/include/giomm-2.4/giomm/private/inputstream_p.h
   /usr/include/giomm-2.4/giomm/private/loadableicon_p.h
   /usr/include/giomm-2.4/giomm/private/memoryinputstream_p.h
+  /usr/include/giomm-2.4/giomm/private/memoryoutputstream_p.h
   /usr/include/giomm-2.4/giomm/private/mount_p.h
   /usr/include/giomm-2.4/giomm/private/mountoperation_p.h
   /usr/include/giomm-2.4/giomm/private/outputstream_p.h
@@ -288,69 +294,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.18.1-1 -----
-Version bump for GNOME 2.24.
-
------ version 2.16.4-1 -----
-Version bump.
-
------ version 2.16.3-1 -----
-Version bump.
-
------ version 2.16.2-1 -----
-Version bump for GNOME 2.22.
-
------ version 2.14.2-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.12.10-1 -----
-Version bump.
-
------ version 2.12.9-1 -----
-Version bump.
-
------ version 2.12.8-1 -----
-Version bump.
-
------ version 2.12.7-1 -----
-Version bump.
-
------ version 2.12.6-1 -----
-Version bump.
-
------ version 2.12.5-1 -----
-Version bump.
-
------ version 2.12.4-1 -----
-Version bump.
-
------ version 2.12.3-1 -----
-Version bump.
-
------ version 2.12.2-1 -----
-Version bump for GNOME 2.16.
-
------ version 2.10.3-1 -----
-Version bump.
-
------ version 2.10.2-1 -----
-Version bump for GNOME 2.14.
-
------ version 2.8.5-1 -----
-Version bump for GNOME 2.12.
-
------ version 2.6.1-1 -----
-New version for glib-2.6, compiled with gcc-3.4.
-
------ version 2.4.7-1 -----
-Version bump.
-
------ version 2.4.5-1 -----
-Upstream bugfix release; see ChangeLog and NEWS for details.
-API documentation now installed in /usr/share/doc/glibmm-2.4.
-
------ version 2.4.4-1 -----
-Initial release for Cygwin.
+----- version 2.20.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:

@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libglibmm2.4_1 libglib2.0-devel libsigc2.0-devel
+requires: cygwin libglibmm2.4_1 libglib2.0-devel libsigc2.0-devel libstdc++6-devel
 external-source: glibmm2.4
 sdesc: "C++ bindings for glib-2.4 (development)"
 ldesc: "gtkmm is the official C++ interface for the popular GUI library 
