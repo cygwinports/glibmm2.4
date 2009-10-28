@@ -1,11 +1,9 @@
 inherit gtkmm
 
-SRC_URI=${SRC_URI%.bz2}.gz
-PATCH_URI="2.16.4-wchar_t.patch"
-
 PKG_NAMES="${PN} lib${PN}_1 lib${PN}-devel lib${PN}-doc"
 libglibmm2_4_1_CONTENTS="usr/bin/*mm-2.4-1.dll usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
-libglibmm2_4_devel_CONTENTS='usr/bin/cygglibmm_generate*.dll usr/include/ usr/lib/ usr/share/aclocal/'
+libglibmm2_4_devel_CONTENTS="usr/bin/cygglibmm_generate*.dll usr/include/
+                             usr/lib/ usr/share/aclocal/ usr/share/glibmm-2.4/"
 libglibmm2_4_doc_CONTENTS='usr/share/devhelp/ usr/share/doc/glibmm-2.4/'
 
 DIFF_EXCLUDES+=" glibmmconfig.h"
