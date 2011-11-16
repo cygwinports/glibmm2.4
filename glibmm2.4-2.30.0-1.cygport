@@ -2,8 +2,7 @@ inherit gtkmm
 
 PKG_NAMES="lib${PN}_1 lib${PN}-devel lib${PN}-doc"
 libglibmm2_4_1_CONTENTS="usr/bin/*mm-2.4-1.dll usr/share/doc/${PN}/"
-libglibmm2_4_devel_CONTENTS="usr/bin/cygglibmm_generate*.dll usr/include/
-                             usr/lib/ usr/share/aclocal/"
+libglibmm2_4_devel_CONTENTS="usr/bin/cygglibmm_generate*.dll usr/include/ usr/lib/"
 libglibmm2_4_doc_CONTENTS='usr/share/devhelp/ usr/share/doc/glibmm-2.4/'
 
 DIFF_EXCLUDES+=" glibmmconfig.h"
