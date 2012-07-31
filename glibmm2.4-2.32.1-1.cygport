@@ -1,0 +1,18 @@
+inherit gtkmm
+
+CATEGORY="Gnome"
+SUMMARY="C++ bindings for glib-2.4"
+DESCRIPTION="gtkmm is the official C++ interface for the popular GUI library
+GTK+. It closely follows GTK+ development. Highlights include typesafe
+callbacks, widgets extensible via inheritance and a comprehensive set
+of widgets."
+
+PKG_NAMES="lib${PN}_1 lib${PN}-devel lib${PN}-doc"
+libglibmm2_4_1_SUMMARY="${SUMMARY} (runtime)"
+libglibmm2_4_1_CONTENTS="usr/bin/*mm-2.4-1.dll usr/share/doc/${PN}/"
+libglibmm2_4_devel_SUMMARY="${SUMMARY} (development)"
+libglibmm2_4_devel_CONTENTS="usr/bin/cygglibmm_generate*.dll usr/include/ usr/lib/"
+libglibmm2_4_doc_SUMMARY="${SUMMARY} (API documentation)"
+libglibmm2_4_doc_CONTENTS='usr/share/devhelp/ usr/share/doc/glibmm-2.4/'
+
+DIFF_EXCLUDES+=" glibmmconfig.h"
