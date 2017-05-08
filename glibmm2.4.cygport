@@ -1,7 +1,7 @@
 inherit gtkmm
 
 NAME="glibmm2.4"
-VERSION=2.50.0
+VERSION=2.50.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="C++ bindings for glib-2.4"
